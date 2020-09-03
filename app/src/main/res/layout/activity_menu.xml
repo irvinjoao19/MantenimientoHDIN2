@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.activities.MenuActivity"
+
+    android:background="@color/blanco"
+
+    >
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="95dp"
+        android:layout_marginTop="74dp"
+        android:background="#FDFCFC"
+        android:text="Ingrese Numero de CRQ"
+        android:textAlignment="center"
+        android:textColor="#121010"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/lblcrq"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+
+        android:layout_alignParentEnd="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="17dp"
+        android:layout_marginTop="115dp"
+        android:layout_marginEnd="17dp"
+        android:inputType="textPersonName"
+        android:textColor="#0E0C0C"
+        app:layout_constraintBottom_toTopOf="@+id/btncerrar" />
+
+    <Button
+        android:id="@+id/btnbuscar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_alignParentStart="true"
+
+        android:layout_alignParentTop="true"
+
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="155dp"
+        android:layout_marginTop="178dp"
+        android:background="@drawable/estilo_boton"
+        android:text="BUSCAR"
+        app:layout_constraintTop_toBottomOf="@+id/lblcrq" />
+
+    <Button
+        android:id="@+id/btnasignados"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="110dp"
+        android:layout_marginEnd="125dp"
+        android:layout_marginBottom="305dp"
+        android:background="@drawable/estilo_boton"
+        android:text="TRABAJOS ASIGNADOS" />
+
+    <Button
+        android:id="@+id/btncerrar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_alignParentTop="true"
+
+        android:layout_alignParentEnd="true"
+        android:layout_centerHorizontal="true"
+
+
+        android:layout_marginTop="594dp"
+        android:layout_marginEnd="164dp"
+        android:background="@drawable/estilo_boton"
+        android:text="Cerrar Sesion"
+        android:textColor="@color/blanco" />
+
+
+</RelativeLayout>
+
+

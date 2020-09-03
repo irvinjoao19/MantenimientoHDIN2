@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.activities.AsignacionesActivity"
+    android:orientation="vertical"
+    android:background="@color/blanco"
+    >
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Lista de Trabajos del Usuario"
+        android:textAlignment="center"
+        android:textColor="#091EAE"
+
+        />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/listarecycler2"
+        android:layout_width="match_parent"
+        android:layout_marginStart="15dp"
+
+        android:layout_marginEnd="15dp"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#F30E0E"
+        android:textSize="15sp"
+        android:layout_marginStart="15dp"
+
+        android:layout_marginEnd="15dp"
+        android:textAlignment="center"
+        android:text="Trabajos Asignados Al usuario Pendiente Regularizacion de Informe" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#196EED"
+        android:layout_marginStart="15dp"
+
+        android:layout_marginEnd="15dp"
+        android:textSize="15sp"
+        android:textAlignment="center"
+        android:text="Informacion:El color rojo en el icono nos indica que no tiene Informe y color verde nos indica que si tiene informe pero falta validacion de HD Mantenimiento" />
+
+
+</LinearLayout>
